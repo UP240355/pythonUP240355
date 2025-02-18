@@ -32,4 +32,10 @@ print("the area of the rectangle is :  " ,  area)
 perimeter = 2 * area
 print ("the perimeter of the rectangle is:  ", perimeter)
 
-#
+# radio de un circulo
+radius= float(input("enter the radius: "))
+pi=3.1416
+area= pi * radius**2
+print("the area of the circle is: " , area)
+circumference= 2*pi*radius
+print("the circumeference of the circle is: " , circumference)
