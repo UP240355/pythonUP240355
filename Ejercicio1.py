@@ -39,3 +39,37 @@ area= pi * radius**2
 print("the area of the circle is: " , area)
 circumference= 2*pi*radius
 print("the circumeference of the circle is: " , circumference)
+
+# Calcular variables
+m = 2
+b= -2
+x_intercept= -b/m
+print("pendiente (m): ",  m)
+print("interseccion en y (b)",   b)
+print("interseccion en x (m)",   m)
+
+# distancia entre punto a y b
+import math
+
+x_1= 2
+x_2= 2
+y_1= 6
+y_2= 10
+pendiente = ((y_2)-(y_1)/(x_2)-(x_1))
+euclides= math.sqrt ((x_2 - x_1)**2 + (y_2)-(y_1)**2)
+print("la pendiente es de: ", pendiente)
+print("la euclides es: ",  euclides)
+
+#comparar las pendientes
+
+if m == pendiente:
+    print(" las pendientes son iguales")
+elif m>pendiente:
+    print("la primera pendiente es mayor")
+
+else: ("la segunda pendiente es mayor")   
+
+# calcular el valor de y
+
+
+
