@@ -55,8 +55,8 @@ x_1= 2
 x_2= 2
 y_1= 6
 y_2= 10
-pendiente = ((y_2)-(y_1)/(x_2)-(x_1))
-euclides= math.sqrt ((x_2 - x_1)**2 + (y_2)-(y_1)**2)
+pendiente = (y_2)-(y_1)/(x_2)-(x_1)
+euclides = math.sqrt (x_2 - x_1)**2 + (y_2)-(y_1)**2
 print("la pendiente es de: ", pendiente)
 print("la euclides es: ",  euclides)
 
@@ -71,5 +71,46 @@ else: ("la segunda pendiente es mayor")
 
 # calcular el valor de y
 
+def calculate_y(x):
+    y = x**2 + 6*x + 9
+    return y
+
+# Probar diferentes valores de x
+for x in range(-10, 5):
+    result = calculate_y(x)
+    print(f"x: {x}, y: {result}")
 
 
+# find lenght of python and dragon
+
+lenght_python = len('python')
+lenght_dragon = len('dragon')
+print(lenght_python != lenght_dragon)
+
+# check if on is in dragon and python
+result = 'on' in 'python ' and 'on' in 'dragon'
+print(result)
+
+# sentence
+
+sentence = "i hope thos course is not full or jargon."
+print('jargon' in sentence)
+
+# lenght float to str
+result= 'on' not in 'python' and 'on'  not in 'dragon'
+print(result)
+
+length_python = len('python')
+length_float= float(length_python)
+length_str= str(length_float)
+print(length_str)
+
+# Numbers pair of inpair
+
+number= input("enter a number:")
+
+
+# check if the division is 2.7
+div= 7//3
+valorconvertido = int(2.7)
+ 
