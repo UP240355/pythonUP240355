@@ -139,7 +139,7 @@ else:
 hours= input("enter hours")
 rph= input("enter rate")
 weeklyearning= int(hours)*int(rph)
-print(" your payment is: " , weeklyearning)
+print(" your payment is: $ " , weeklyearning)
 
 
 # write a table
