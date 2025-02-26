@@ -106,11 +106,45 @@ length_str= str(length_float)
 print(length_str)
 
 # Numbers pair of inpair
+number = 6
+if number % 2 == 0:
+    print(" your number is pair")
+else:
+    print(" your number is inpair")
 
-number= input("enter a number:")
 
 
-# check if the division is 2.7
+# check if  the division is 2.7
 div= 7//3
 valorconvertido = int(2.7)
- 
+if div==valorconvertido:
+   print("son iguales")
+else:
+   print(" no son iguales")
+
+   #verify if the 10 type it's the same as the other 10 type
+if (type('10') == type(10)):
+ print('true')
+else:
+        print('false')
+
+        #verify if int('9.8) is the same to 10
+if (int(float('9.8'))== 10):
+ print('true')
+else:
+    print('false')
+
+# calculate the payment
+
+hours= input("enter hours")
+rph= input("enter rate")
+weeklyearning= int(hours)*int(rph)
+print(" your payment is: " , weeklyearning)
+
+
+# write a table
+print( 1, 1, 1, 1, 1)
+print( 2, 1, 2, 4, 8)
+print( 3, 1, 3, 9, 27)
+print(4, 1, 4, 16, 64)
+print(5, 1, 5, 25, 125)
