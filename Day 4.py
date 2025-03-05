@@ -167,3 +167,46 @@ print(strstar)
 
 # remove left and right side
 print("programa 30:")
+str=(' coding for all ')
+eliminar= str.strip()
+print(eliminar)
+
+# variables
+print("progrma 31:")
+first=("30DaysOfPython")
+second=("thirty_days_of_python")
+method= first.isidentifier()
+method1= second.isidentifier()
+print(method)
+print(method1)
+
+#join with hash
+print("programa 32:")
+list=['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('#' .join(list))
+
+# line escape
+print("programa 33:")
+sentence=("I am enjoying this challenge.\nI just wonder what is next.")
+print(sentence)
+
+# sequence
+print("programa 34:")
+print('  name ' '\t'+'age' '\t'+'country' '\t'+'city')
+print('asabeneh' '\t'+'250' '\t'+'finland' '\t'+'helsinki')
+
+#radius
+print("programa 35:")
+radius=10
+area= 3.14*radius**2
+print("the are of a circle with radius is:", area , 'meters square')
+
+# formatting methods
+print("programa 36:")
+print("8 + 6 = {}".format(8+6))
+print("8 - 6 = {}".format(8-6))
+print("8 * 6 = {}".format(8*6))
+print("8 / 6 = {}".format(8/6))
+print("8 % 6 = {}".format(8%6))
+print("8 // 6 = {}".format(8//6))
+print("8 ** 6 = {}".format(8**6))
