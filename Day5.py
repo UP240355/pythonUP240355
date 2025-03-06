@@ -58,15 +58,14 @@ print(it_companiesMod)
 
 # add IT
 print("programa 11:")
-it_companies=['facebook', ' google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon']
-it_companies.append('X')
-print(it_companies)
+it_companies1=['facebook', ' google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon']
+it_companies1.append('X')
+print(it_companies1)
 
 # add company in the middle
 print("programa 12:")
-it_companies=['facebook', ' google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon']
-it_companies.insert(4, 'whatsapp')
-print(it_companies)
+it_companies1.insert(4, 'whatsapp')
+print(it_companies1)
 
 # min company to upper
 print("programa 13:")
@@ -82,5 +81,69 @@ print('#'.join(it_companies))
 # check if one company is in the string
 print("programa 15:")
 it_companies=['facebook','google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon']
-google= 'google' is  it_companies 
-print(google)
+print('google' in it_companies)
+
+#sort
+print("programa 16:")
+it_companies.sort()
+print(it_companies)
+
+# reverse the list
+print("programa 17:")
+it_companies.reverse()
+print(it_companies)
+
+# slice first
+print("programa 18:")
+cut=it_companies1[3:9]
+print(cut)
+
+#slice the latest
+print("programa 19:")
+cut= it_companies1[0:6]
+print(cut)
+
+#slice the middle company
+print("programa 20:")
+cutM= it_companies1[0:3] + it_companies1[6:9]
+print(cutM)
+
+# reomve the first company
+print("programa 21:")
+del it_companies1[0]
+print(it_companies1)
+
+#remove the middle
+print("programa 22:")
+del it_companies1[4]
+print(it_companies1)
+ 
+# remove the last
+print("programa 23:")
+del it_companies1[6]
+print(it_companies1)
+
+# remove all
+print("programa 24:")
+del it_companies1[0:5]
+
+#destroy list
+print("programa 25:")
+it_companies1.clear()
+print(it_companies1)
+
+# join list
+print("programa 26:")
+front_end= ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end= ['Node','Express', 'MongoDB']
+
+# assign
+print("programa 27:")
+full_stack= front_end + back_end
+print(full_stack)
+
+#add python and sql
+add= ['Python', 'SQL']
+final_stack= front_end + add + back_end
+print(final_stack)
+
