@@ -147,3 +147,50 @@ add= ['Python', 'SQL']
 final_stack= front_end + add + back_end
 print(final_stack)
 
+
+# list of names
+print("Excercise level 2:")
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+ #add
+maxAges= max(ages)
+minAges= min(ages)
+print("la edad maxima es:", maxAges)
+print(" la edad minima es: ", minAges)
+
+ages.append(maxAges)
+ages.append(minAges)
+
+ # median ages
+medAge= ages[4] + ages[5] / 2
+print(medAge)
+
+# find average
+averAges = sum(ages)/ len(ages)
+print("Tu promedio de edades es:", averAges)
+
+#compare the value
+compare= abs(minAges) , abs(maxAges)
+print(compare)
+
+# program 2
+print("programa 2 level 2:")
+import countries as p
+paises = p.countries
+print(len(paises))
+
+#middle contry ,divide the list
+pais= len(paises)//2
+middleCountry= paises[95:97]
+print (middleCountry)
+
+listOne= paises[0:96]
+listTwo= paises[97:193]
+print("your first list is:", listOne)
+print("your second list is:",listTwo)
+
+
+countries1 = ['china', 'rusia', 'EE.UU', 'finlandia', 'suecia', 'noruega', 'dinamarca']
+fewCountries= countries1[3:7]
+print(fewCountries)
