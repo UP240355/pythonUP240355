@@ -60,3 +60,12 @@ print(slice)
 print("porgrama 6:")
 del food_stuff_lt
 
+#check if an item
+print("programa 7:")
+print('apple' in food_stuff_tp)
+
+# nordic countries
+print("programa 8:")
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('Estonia'in nordic_countries)
+print('Iceland' in nordic_countries)
