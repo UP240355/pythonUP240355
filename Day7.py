@@ -72,4 +72,27 @@ del A, B
 
 #exercises level 3
 
-("exercises level 3:")
+print("exercises level 3:")
+
+#list and set
+print("programa 1:")
+ages = ['22', '19', '24', '25', '26', '24', '25', '24']
+st= set(ages)
+if len(ages) > len(st):
+    print ("La lista es mayor ")
+else:
+    print ("El set es mayor")
+
+#explain concepts
+print("programa 2:")
+ # string: es una cadena de characters.
+ # list: es conjunto de items:
+ # tuple: es similar a una lista pero con la diferencia de que es inmutable, es decir no puedes modificar sus elementos.
+ # set: es una lista que no esta ordenada de elementos unicos.
+
+# sentence 
+print("programa 3:")
+sentence= ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 'teach', 'people.']
+sentence_set = set(sentence)
+print (len(sentence_set))
+print (sentence_set)
