@@ -63,10 +63,15 @@ else:
 
 #list
 print("programa 3:")
-fruit= input("enter a fruit:")
+fruit= str(input("enter a fruit:"))
 fruits= ['banana', 'orange', 'mango', 'lemon']
 
 if fruit in fruits:
     print("that fruit is already exist in the list")
 else: 
-    print
+    fruits.append(fruit)
+    print(fruits)
+
+#exercise level 3
+print("exercises level 3:")
+print("programa 1:")
