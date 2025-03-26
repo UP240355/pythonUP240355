@@ -75,3 +75,43 @@ else:
 #exercise level 3
 print("exercises level 3:")
 print("programa 1:")
+person={
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+}
+    #primera parte
+print('skills' in person)
+if 'skills' in person:
+    skills_list=person['skills']
+    middle_skill= len(skills_list)//2
+    middle=skills_list[middle_skill]
+    print('the middle skill is:',  middle)
+
+#2nd 
+if 'Python' in person['skills']:
+    print("Python is in person")
+else: 
+    print("the person don't have Python")
+
+#3rd
+
+if 'JavaScript' in skills_list and 'React'in skills_list:
+    print("he is a front end developer")
+elif 'Node' in skills_list and 'Python' in skills_list and 'MongoDB' in skills_list:
+    print("he is a backend developer")
+elif 'React' in skills_list and 'Node' in skills_list and 'MongoDB' in skills_list:
+    print(" he is a fullstack developer")
+else:
+    print("unknown title")
+
+#4th
+if person['is_marred'] and person['country'] == 'Finland':
+    print("{person['name']} is married and lives in Finland")
