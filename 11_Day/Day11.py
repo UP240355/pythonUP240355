@@ -35,9 +35,22 @@ print(convertirCelsiusAfarenheit(degrees))
 
 # season
 print("programa 4:")
-def checkSeason(months):
-    spring= ['marzo', 'abril', 'mayo']
-    summer= ['junio', 'julio', 'agosto']
-    fall= ['septiembre', 'octubre', 'noviembre']
-    winter= ['diciembre', 'enero', 'febrero']
+def checkSeason(month):
+ primavera = ['marzo', 'abril', 'mayo']
+verano = ['junio', 'julio', 'agosto']
+    otoño = ['septiembre', 'octubre', 'noviembre']
+    invierno = ['diciembre', 'enero', 'febrero']
     
+    if mes in primavera:
+        return "Primavera"
+    elif mes in verano:
+        return "Verano"
+    elif mes in otoño:
+        return "Otoño"
+    elif mes in invierno:
+        return "Invierno"
+    else:
+        return "no esta mi apa"
+
+month = input("Ingrese el mes: ")
+print(checkSeason(month))
