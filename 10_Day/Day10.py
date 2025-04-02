@@ -95,6 +95,7 @@ for fruit in lst[::-1]:
     reverse.append(fruit)
     print(reverse)
 
+# languages and population
 print("programa 3 level 3:")
 
 import countriesData as data
@@ -104,7 +105,7 @@ for pais in datos:
     for lenguaje in pais['languages']:
         countryLanguage.append(lenguaje)
         
-print('estos son los lenguajes que hay : ', len(countryLanguage))
+print('estos son los lenguajes que hay: ', len(countryLanguage))
  #2
 setlanguages = set(countryLanguage)
 dictlanguages = {
