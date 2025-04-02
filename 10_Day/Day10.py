@@ -70,7 +70,61 @@ sumaImpares= 0
 for i in range (101):
     if i % 2==0:
         sumaPares += i
-else: 
-    sumaImpares += i
+    elif i % 2!=0: 
+        sumaImpares += i
     print(" la suma de pares es:", sumaPares)
     print(" la suma de Impares es:", sumaImpares)
+
+# exercises level 3
+print("level 3:")
+print("programa 1 Level 3:")
+
+import paises as p
+paises = p.countries
+land ='land'
+for pais in paises:
+    if land in pais:
+         print(pais)
+
+# list
+print("programa 2 level 3:")
+lst= ['banana', 'orange', 'mango', 'lemon']
+print(lst)
+reverse=[]
+for fruit in lst[::-1]:
+    reverse.append(fruit)
+    print(reverse)
+
+print("programa 3 level 3:")
+
+import countriesData as data
+datos = data.countries2
+countryLanguage = []
+for pais in datos:
+    for lenguaje in pais['languages']:
+        countryLanguage.append(lenguaje)
+        
+print('estos son los lenguajes que hay : ', len(countryLanguage))
+ #2
+setlanguages = set(countryLanguage)
+dictlanguages = {
+
+}
+for language in setlanguages:
+    dictlanguages[language] = 0
+
+print(dictlanguages)
+
+for idioma in dictlanguages:
+    for pais in datos:  
+         if idioma in pais['languages']:
+             dictlanguages[idioma] = pais['population'] + dictlanguages[idioma]
+
+sortValuesLanguagespopulation = sorted(dictlanguages.values(), reverse= True)
+sorfkeyslanguagespopulation = sorted(dictlanguages, key= dictlanguages.get, reverse=True)
+
+print( sorfkeyslanguagespopulation[1] ,sortValuesLanguagespopulation[1])
+#3
+for i in range(10):
+    print(sorfkeyslanguagespopulation[i] ,sortValuesLanguagespopulation[i])
+
