@@ -96,3 +96,5 @@ sentence= ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and'
 sentence_set = set(sentence)
 print (len(sentence_set))
 print (sentence_set)
+
+print("revisado")

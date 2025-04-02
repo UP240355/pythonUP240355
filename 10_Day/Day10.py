@@ -129,3 +129,4 @@ print( sorfkeyslanguagespopulation[1] ,sortValuesLanguagespopulation[1])
 for i in range(10):
     print(sorfkeyslanguagespopulation[i] ,sortValuesLanguagespopulation[i])
 
+print("revisado")
