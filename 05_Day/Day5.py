@@ -194,3 +194,5 @@ print("your second list is:",listTwo)
 countries1 = ['china', 'rusia', 'EE.UU', 'finlandia', 'suecia', 'noruega', 'dinamarca']
 fewCountries= countries1[3:7]
 print(fewCountries)
+
+print("revisado")
