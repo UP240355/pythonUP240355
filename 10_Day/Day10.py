@@ -89,11 +89,8 @@ for pais in paises:
 # list
 print("programa 2 level 3:")
 lst= ['banana', 'orange', 'mango', 'lemon']
+lst.reverse()
 print(lst)
-reverse=[]
-for fruit in lst[::-1]:
-    reverse.append(fruit)
-    print(reverse)
 
 # languages and population
 print("programa 3 level 3:")
