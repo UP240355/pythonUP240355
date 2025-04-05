@@ -2618,3 +2618,32 @@ countries5=[
         "currency": "Botswana pula"
     }
 ]
+
+
+# level 3
+print("programa 1 level 3:")
+sortedByName= sorted (countries5, key=lambda x: x ["name"])
+sortedByCapital= sorted (countries5, key=lambda x: x ["capital"])
+sortedByPopulation= sorted (countries5, key=lambda x: x ["population"], reverse=True)
+print("sorted by name:", sortedByName)
+print("sorted by capital:", sortedByCapital)
+print("sorted by population:", sortedByPopulation)
+
+
+#most spoken languages
+print("programa 2 level 3:")
+from collections import Counter
+def idiomasmashablados(datos, cantidad=10):
+    idiomas=[]
+    for countries5 in datos:
+        idiomas.extend(pais["languages"])
+        return Counter (idiomas).most_common(cantidad)
+    print(idiomasmashablados(countries5, 10))
+
+# most spoken countries
+print("programa 3 level 3:")
+def paisesmashablados(datos, cantidad=10):
+    return sorted(datos, key=lambda x:x["population"], reverse=True)[:cantidad]
+print([p["name"]for p in paisesmashablados (countries5, 10)])
+
+

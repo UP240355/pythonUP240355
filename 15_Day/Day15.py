@@ -19,4 +19,4 @@ print(dictionary["city"])  # no esta declarada city es inexistente
 div= 10 / 0  # el divisor no puede ser cero
 
 num= 39
-print(num.upper()) # 'int' no tiene  el metodo upper
+print(num.upper()) # 'int' no tiene  el metodo 'upper'

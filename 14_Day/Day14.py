@@ -139,4 +139,3 @@ def getLastTenCountries():
      return countries4[-10:]
 print (getLastTenCountries())
 
-#level 3
